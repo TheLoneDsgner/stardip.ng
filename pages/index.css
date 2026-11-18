@@ -21,7 +21,7 @@
    ══════════════════════════════════════════════════════════════════ */
 .home-hero {
   flex-grow: 1;
-  width: min(100% - 2rem, 900px);
+  width: min(100% - 2rem, 1000px);
   margin-inline: auto;
   display: flex;
   justify-content: center;
@@ -176,7 +176,7 @@
    ══════════════════════════════════════════════════════════════════ */
 .our-focus {
   flex-grow: 1;
-  width: min(100% - 2rem, 900px);
+  width: min(100% - 2rem, 1000px);
   margin-inline: auto;
   margin-block-end: var(--space-section);
   padding-block-start: var(--space-6);
@@ -315,7 +315,7 @@
    ══════════════════════════════════════════════════════════════════ */
 .technical {
   flex-grow: 1;
-  width: min(100% - 2rem, 900px);
+  width: min(100% - 2rem, 1000px);
   margin-inline: auto;
   margin-block-end: var(--space-section);
   padding: var(--space-6) 0;
