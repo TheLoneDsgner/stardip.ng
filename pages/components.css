@@ -87,7 +87,7 @@ body {
 
 .nav {
   flex-grow: 1;
-  width: min(100% - 2rem, 1000px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
