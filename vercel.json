@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "src": "^/$",
+      "status": 308,
+      "headers": { "Location": "/pages/index.html" }
+    },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "status": 404, "dest": "/pages/404.html" }
+  ]
+}
