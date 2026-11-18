@@ -112,7 +112,7 @@
   top: -48px;
   place-self: center;
   flex-grow: 1;
-  width: min(100% - 2rem, 900px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   border-radius: var(--radius-2-xl);
   background: var(--surface);
@@ -176,7 +176,7 @@
    ══════════════════════════════════════════════════════════════════ */
 .our-focus {
   flex-grow: 1;
-  width: min(100% - 2rem, 1000px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   margin-block-end: var(--space-section);
   padding-block-start: var(--space-6);
@@ -315,7 +315,7 @@
    ══════════════════════════════════════════════════════════════════ */
 .technical {
   flex-grow: 1;
-  width: min(100% - 2rem, 1000px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   margin-block-end: var(--space-section);
   padding: var(--space-6) 0;
@@ -490,7 +490,7 @@
 }
 
 .initiative-header {
-  width: min(100% - 2rem, 900px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   display: flex;
   align-items: center;
@@ -560,7 +560,7 @@
   scroll-behavior: smooth;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  width: min(100% - 2rem, 900px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
 }
 
@@ -627,7 +627,7 @@
 }
 
 .stories-wrapper {
-  width: min(100% - 2rem, 900px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   padding-block: var(--space-section);
   display: flex;
@@ -766,7 +766,7 @@
 }
 
 .approach-wrapper {
-  width: min(100% - 2rem, 900px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   background: var(--surface);
   padding: var(--space-5);
@@ -882,7 +882,7 @@
 
 .partnerships-wrapper {
   position: relative;
-  width: min(100% - 2rem, 800px);
+  width: min(100% - 2rem, 1000px);
   margin-inline: auto;
   min-height: 400px;
   display: flex;

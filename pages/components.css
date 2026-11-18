@@ -419,7 +419,7 @@ body.nav-open { overflow: hidden; }
 .cta-banner-content {
   position: relative;
   z-index: 1;
-  width: min(100% - 3rem, 900px);
+  width: min(100% - 3rem, 764px);
   margin-inline: auto;
   display: flex;
   flex-direction: column;
@@ -478,7 +478,7 @@ body.nav-open { overflow: hidden; }
 }
 
 .footer-inner {
-  width: min(100% - 2rem, 1000px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   padding-block-start: var(--space-section);
   padding-block-end: var(--space-7);
