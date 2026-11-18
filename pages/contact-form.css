@@ -15,15 +15,15 @@
 }
 
 .contact {
-    width: min(100% - 2rem, 900px);
+    width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   padding-block-start: var(--space-10);
   padding-block-end: var(--space-7);
-  /* margin-block: var(--space-10); */
 }
 
 .contact-header {
-    width: calc(100% - 204px);
+    max-width: min(100% - 2rem, 900px);
+    margin-inline: auto;
     display: flex;
     flex-direction: column;
     gap: var(--space-6);
@@ -32,6 +32,8 @@
 /* page spacing between the intro and the form card */
 .contact > .form {
     margin-block-start: var(--space-5);
+    max-width: min(100% - 2rem, 900px);
+    margin-inline: auto;
 }
 
 .contact-header-text h1 {

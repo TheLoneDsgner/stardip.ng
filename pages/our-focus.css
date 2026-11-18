@@ -8,7 +8,7 @@
 }
 
 .our-focus-hero {
-  width: min(100% - 2rem, 900px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   padding-block: var(--space-8);
   display: flex;
@@ -90,8 +90,9 @@
     padding-block-start: var(--space-section);
 }
 
+/* focus header */
 .our-focus-header {
-  width: min(100% - 2rem, 900px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
@@ -126,7 +127,7 @@
 
 /* focus items */
 .focus-cards-wrapper {
-    width: min(100% - 2rem, 900px);
+    width: min(100% - 2rem, 1140px);
     margin-inline: auto;
     /* height: 100dvh; */
     display: grid;
@@ -216,7 +217,7 @@
 
 .partnerships-wrapper {
   position: relative;
-  width: min(100% - 2rem, 800px);
+  width: min(100% - 2rem, 900px);
   margin-inline: auto;
   min-height: 400px;
   display: flex;

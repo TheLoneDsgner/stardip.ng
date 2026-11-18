@@ -21,12 +21,15 @@
    ══════════════════════════════════════════════════════════════════ */
 .home-hero {
   flex-grow: 1;
-  width: min(100% - 2rem, 1000px);
+  width: min(100% - 2rem, 1140px);
   margin-inline: auto;
   display: flex;
   justify-content: center;
   text-align: center;
   padding-block: var(--space-section);
+  padding-block-start: var(--space-section);
+  max-height: 100vh;
+  height: 100dvh;
 }
 
 .home-hero-content {
@@ -135,7 +138,7 @@
   justify-content: center;
   flex-direction: column;
   gap: var(--space-5);
-  padding: var(--space-4);
+  padding: var(--space-6) 0 var(--space-6) var(--space-6);
 }
 
 .about-text-wrapper h2 {
@@ -159,7 +162,6 @@
 
 .about-image {
   width: 44%;
-  min-height: 200px;
   border-radius: var(--radius-xl);
   background: var(--paper-sunken);
   overflow: hidden;
@@ -568,7 +570,7 @@
 
 .initiative-card {
   flex: 0 0 min(780px, 60vw);
-  max-height: 340px;
+  max-height: 380px;
   display: flex;
   scroll-snap-align: start;
   background: var(--surface);
@@ -662,7 +664,7 @@
   position: relative;
   border-radius: var(--radius-xl);
   overflow: hidden;
-  min-height: 320px;
+  min-height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -882,7 +884,7 @@
 
 .partnerships-wrapper {
   position: relative;
-  width: min(100% - 2rem, 1000px);
+  width: min(100% - 2rem, 900px);
   margin-inline: auto;
   min-height: 400px;
   display: flex;
@@ -957,6 +959,14 @@
    ══════════════════════════════════════════════════════════════════ */
 
 @media (min-width: 1281px) {
+  .home-hero {
+    flex-grow: 1;
+    width: min(100% - 2rem, 1140px);
+    max-height: 70vh;
+    height: 70dvh;
+  
+  }
+
   .about-home {
     position: relative;
     inset: 0;
@@ -970,6 +980,20 @@
 @media all and (max-width: 960px) {
   .home-hero-content {
       margin-block-start: var(--space-10);
+  }
+
+    .home-hero {
+    flex-grow: 1;
+    width: min(100% - 2rem, 1000px);
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-block: var(--space-section);
+    padding-block-start: var(--space-section);
+    max-height: 70vh;
+    height: 70dvh;
+  
   }
 }
 
